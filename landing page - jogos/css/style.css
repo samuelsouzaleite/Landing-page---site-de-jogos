@@ -1,0 +1,142 @@
+@font-face {
+    font-family: "made";
+    src: url(MADE\ TOMMY\ Regular_PERSONAL\ USE.otf) format("opentype");
+}
+
+@font-face {
+    font-family: "made-black";
+    src: url(MADE\ TOMMY\ Black_PERSONAL\ USE.otf) format("opentype");
+}
+
+
+*
+{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body
+{
+    background-color: #68666A;
+}
+
+header
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: #38454F;
+    padding: 30px;
+    font-family: "made-black";   
+    color: #DD352E; 
+}
+
+header a
+{
+    
+    color: aliceblue;
+    font-family: "made";  
+    
+}
+
+header a:hover
+{
+    color: #DD352E;
+}
+
+#link-conta
+{
+    border: 2px solid #DD352E;
+    padding: 10px;
+    border-radius: 10px;
+    transition: 1.3s;
+}
+
+#link-conta:hover
+{
+    background-color: #DD352E;
+    color: aliceblue;
+}
+
+.img-e-nome-topo
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+    
+}
+
+.img-logo
+{
+    width: 70px;
+    height: 70px;
+}
+
+.links-topo
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 25px;
+    gap: 32px;
+}
+
+.conteudo-principal
+{
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 50px;
+}
+
+.conteudo-principal-escrito
+{ 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    color: aliceblue;
+    text-align: center;
+    font-size: 35px;
+    width: 400px;
+    font-family: "made";
+    
+}
+
+#conteudo-titulo
+{
+    color: #0B0A12;
+    font-family: "made-black";
+}
+
+.conteudo-link
+{
+
+    border: 2px solid #0B0A12;
+    color: #0B0A12;
+    text-align: center;
+    border-radius: 10px;
+    width: 100%;
+    transition: 1.3s;
+}
+
+.conteudo-principal-img
+{
+    padding-top: 60px; 
+    width: 600px;
+    height: 600px;
+}
+
+.conteudo-link:hover
+{
+    background-color: #201f24;
+    color: aliceblue;
+}
